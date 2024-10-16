@@ -43,6 +43,33 @@ a:hover {
     margin: 0 auto;
 }
 
+nav {
+    margin-top: 10px;
+}
+
+ul.top-menu {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul.top-menu li {
+    display: inline;
+    margin-right: 15px;
+}
+
+ul.top-menu li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1rem;
+    padding: 8px 12px;
+    transition: background-color 0.3s ease;
+}
+
+ul.top-menu li a:hover {
+    background-color: #005f73;
+    border-radius: 5px;
+}
+
 main {
     background-color: white;
     padding: 20px;
@@ -83,7 +110,7 @@ footer p {
     margin: 0;
 }
 
-/* Responsiv design */
+/* Responsivt design */
 @media (max-width: 768px) {
     header h1 {
         font-size: 1.8rem;
@@ -91,5 +118,14 @@ footer p {
 
     .container {
         padding: 0 20px;
+    }
+
+    ul.top-menu li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    ul.top-menu li a {
+        font-size: 1rem;
     }
 }
