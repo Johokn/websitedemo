@@ -3,70 +3,61 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Joachim Hansens CV</title>
+    <title>Joachim Hansen - CV</title>
     <link rel="stylesheet" href="styles.css">
-    <script src="js/script.js" defer></script>
 </head>
 <body>
     <header>
         <div class="container">
             <h1>Joachim Hansen</h1>
-            <p>Email: <a href="mailto:joachim@example.com">joachim@example.com</a> | Telefon: +45 1234 5678</p>
-            <p>LinkedIn: <a href="https://linkedin.com/in/joachim">linkedin.com/in/joachim</a></p>
+            <p class="contact">Email: <a href="mailto:joachim@example.com">joachim@example.com</a> | Telefon: +45 1234 5678</p>
+            <p class="contact">LinkedIn: <a href="https://linkedin.com/in/joachim">linkedin.com/in/joachim</a></p>
         </div>
     </header>
 
     <main>
-        <section class="about collapsible">
-            <h2 onclick="toggleSection(this)">Om mig &#9660;</h2>
-            <div class="content">
-                <p>Jeg er en passioneret softwareudvikler med erfaring i webudvikling og design af brugervenlige løsninger. Jeg elsker at løse problemer og lære nye teknologier.</p>
-            </div>
+        <section class="about">
+            <h2>Om mig</h2>
+            <p>Jeg er en passioneret softwareudvikler med erfaring i webudvikling og design af brugervenlige løsninger. Jeg elsker at løse problemer og lære nye teknologier.</p>
         </section>
 
-        <section class="experience collapsible">
-            <h2 onclick="toggleSection(this)">Erfaring &#9660;</h2>
-            <div class="content">
-                <div class="job">
-                    <h3>Softwareudvikler - ABC Firma</h3>
-                    <p>Jan 2020 - Nuværende</p>
-                    <ul>
-                        <li>Udviklet webapplikationer i HTML, CSS og JavaScript.</li>
-                        <li>Vedligeholdt og optimeret eksisterende systemer.</li>
-                        <li>Samarbejde med designteamet for at forbedre UI/UX.</li>
-                    </ul>
-                </div>
-                <div class="job">
-                    <h3>Junior Udvikler - XYZ Firma</h3>
-                    <p>Aug 2017 - Dec 2019</p>
-                    <ul>
-                        <li>Assisteret i udviklingen af e-handelsløsninger.</li>
-                        <li>Testet og dokumenteret softwarekomponenter.</li>
-                    </ul>
-                </div>
-            </div>
-        </section>
-
-        <section class="education collapsible">
-            <h2 onclick="toggleSection(this)">Uddannelse &#9660;</h2>
-            <div class="content">
-                <div class="school">
-                    <h3>Bachelor i Datateknologi - Københavns Universitet</h3>
-                    <p>2014 - 2017</p>
-                </div>
-            </div>
-        </section>
-
-        <section class="skills collapsible">
-            <h2 onclick="toggleSection(this)">Færdigheder &#9660;</h2>
-            <div class="content">
+        <section class="experience">
+            <h2>Erfaring</h2>
+            <div class="job">
+                <h3>Softwareudvikler - ABC Firma</h3>
+                <p>Jan 2020 - Nuværende</p>
                 <ul>
-                    <li>HTML/CSS/JavaScript</li>
-                    <li>React/Angular</li>
-                    <li>Node.js</li>
-                    <li>Git/GitHub</li>
+                    <li>Udviklet webapplikationer i HTML, CSS og JavaScript.</li>
+                    <li>Vedligeholdt og optimeret eksisterende systemer.</li>
+                    <li>Samarbejde med designteamet for at forbedre UI/UX.</li>
                 </ul>
             </div>
+            <div class="job">
+                <h3>Junior Udvikler - XYZ Firma</h3>
+                <p>Aug 2017 - Dec 2019</p>
+                <ul>
+                    <li>Assisteret i udviklingen af e-handelsløsninger.</li>
+                    <li>Testet og dokumenteret softwarekomponenter.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="education">
+            <h2>Uddannelse</h2>
+            <div class="school">
+                <h3>Bachelor i Datateknologi - Københavns Universitet</h3>
+                <p>2014 - 2017</p>
+            </div>
+        </section>
+
+        <section class="skills">
+            <h2>Færdigheder</h2>
+            <ul>
+                <li>HTML/CSS/JavaScript</li>
+                <li>React/Angular</li>
+                <li>Node.js</li>
+                <li>Git/GitHub</li>
+            </ul>
         </section>
     </main>
 
