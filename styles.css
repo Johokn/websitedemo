@@ -78,6 +78,18 @@ h2 {
     margin-bottom: 20px;
 }
 
+/* WORKS SECTION */
+.work {
+    margin-bottom: 25px;
+}
+
+/* Musikafspiller styling */
+audio {
+    width: 100%;
+    margin-top: 10px;
+    outline: none;
+}
+
 /* FOOTER */
 footer {
     text-align: center;
