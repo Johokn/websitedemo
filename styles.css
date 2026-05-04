@@ -5,37 +5,29 @@
 }
 
 body {
-    font-family: 'Arial', sans-serif;
-    line-height: 1.6;
-    color: #333;
-    background-color: #f4f4f4;
+    font-family: 'Georgia', serif;
+    background-color: #f7f7f7;
+    color: #222;
+    line-height: 1.7;
     padding: 20px;
 }
 
 header {
-    background-color: #008CBA;
+    background: linear-gradient(135deg, #1a3c57, #0d1f2d);
     color: white;
-    padding: 20px 0;
+    padding: 40px 0;
     text-align: center;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 header h1 {
-    margin-bottom: 10px;
+    font-size: 2.8rem;
+    letter-spacing: 2px;
 }
 
-header p {
-    margin: 5px 0;
-}
-
-a {
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-a:hover {
-    text-decoration: underline;
+.subtitle {
+    font-size: 1.2rem;
+    margin-top: 5px;
+    opacity: 0.9;
 }
 
 .container {
@@ -44,88 +36,64 @@ a:hover {
 }
 
 nav {
-    margin-top: 10px;
+    margin-top: 20px;
 }
 
 ul.top-menu {
-    list-style-type: none;
-    padding: 0;
+    list-style: none;
 }
 
 ul.top-menu li {
-    display: inline;
-    margin-right: 15px;
+    display: inline-block;
+    margin: 0 15px;
 }
 
 ul.top-menu li a {
     color: white;
-    text-decoration: none;
     font-size: 1.1rem;
     padding: 8px 12px;
-    transition: background-color 0.3s ease;
+    border-radius: 4px;
+    transition: 0.3s;
 }
 
 ul.top-menu li a:hover {
-    background-color: #005f73;
-    border-radius: 5px;
+    background-color: rgba(255,255,255,0.15);
 }
 
 main {
-    background-color: white;
-    padding: 20px;
-    margin-top: 20px;
-    border-radius: 8px;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    background: white;
+    padding: 30px;
+    margin-top: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
 }
 
 section {
-    margin-bottom: 20px;
+    margin-bottom: 40px;
 }
 
 h2 {
-    border-bottom: 2px solid #008CBA;
-    padding-bottom: 10px;
-    color: #008CBA;
-}
-
-.job, .school {
+    font-size: 1.8rem;
+    color: #1a3c57;
+    border-bottom: 2px solid #1a3c57;
+    padding-bottom: 8px;
     margin-bottom: 20px;
 }
 
-ul {
-    list-style-type: disc;
-    margin-left: 20px;
+.work, .project {
+    margin-bottom: 25px;
+}
+
+audio {
+    margin-top: 10px;
+    width: 100%;
 }
 
 footer {
     text-align: center;
-    padding: 10px 0;
-    margin-top: 20px;
-    background-color: #333;
+    margin-top: 30px;
+    padding: 15px 0;
+    background-color: #1a1a1a;
     color: white;
-    font-size: 0.9em;
-}
-
-footer p {
-    margin: 0;
-}
-
-/* Responsivt design */
-@media (max-width: 768px) {
-    header h1 {
-        font-size: 1.8rem;
-    }
-
-    .container {
-        padding: 0 20px;
-    }
-
-    ul.top-menu li {
-        display: block;
-        margin: 10px 0;
-    }
-
-    ul.top-menu li a {
-        font-size: 1rem;
-    }
+    font-size: 0.9rem;
 }
